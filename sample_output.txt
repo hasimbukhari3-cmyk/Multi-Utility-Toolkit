@@ -1,0 +1,193 @@
+============================================================
+Welcome to the Multi-Utility Toolkit!
+============================================================
+This toolkit demonstrates Python's modular structure using
+built-in modules, custom modules, and packages.
+
+=======================================================
+       Welcome to Multi-Utility Toolkit
+=======================================================
+Choose an option:
+1. Datetime and Time Operations
+2. Mathematical Operations
+3. Random Data Generation
+4. Generate Unique Identifiers (UUID)
+5. File Operations (Custom Module)
+6. Explore Module Attributes (dir())
+7. Exit
+=======================================================
+Enter your choice: 1
+
+--- Datetime and Time Operations ---
+1. Display current date and time
+2. Calculate difference between two dates
+3. Format date into custom format
+4. Stopwatch
+5. Countdown Timer
+6. Back to Main Menu
+Enter your choice: 1
+
+Current Date and Time: 2025-01-04 10:15:30
+Formatted: Saturday, January 04, 2025 at 10:15 AM
+
+Press Enter to continue...
+
+--- Datetime and Time Operations ---
+Enter your choice: 2
+Enter the first date (YYYY-MM-DD): 2024-12-25
+Enter the second date (YYYY-MM-DD): 2025-01-04
+Difference: 10 days
+
+Press Enter to continue...
+
+--- Datetime and Time Operations ---
+Enter your choice: 6
+
+=======================================================
+       Welcome to Multi-Utility Toolkit
+=======================================================
+Enter your choice: 2
+
+--- Mathematical Operations ---
+1. Calculate Factorial
+2. Solve Compound Interest
+3. Trigonometric Calculations
+4. Area of Geometric Shapes
+5. Unit Conversions
+6. Back to Main Menu
+Enter your choice: 1
+
+Enter a number: 5
+Factorial: 120
+
+Press Enter to continue...
+
+--- Mathematical Operations ---
+Enter your choice: 2
+
+Enter principal amount: 1000
+Enter rate of interest (in %): 5
+Enter time (in years): 2
+Compound Interest: 1102.50
+Interest Earned: 102.50
+
+Press Enter to continue...
+
+--- Mathematical Operations ---
+Enter your choice: 6
+
+=======================================================
+       Welcome to Multi-Utility Toolkit
+=======================================================
+Enter your choice: 3
+
+--- Random Data Generation ---
+1. Generate Random Number
+2. Generate Random List
+3. Create Random Password
+4. Generate Random OTP
+5. Random Sampling from Dataset
+6. Back to Main Menu
+Enter your choice: 3
+
+Enter password length: 8
+Generated Password: Kd8@qzP!
+
+Press Enter to continue...
+
+--- Random Data Generation ---
+Enter your choice: 6
+
+=======================================================
+       Welcome to Multi-Utility Toolkit
+=======================================================
+Enter your choice: 4
+
+--- Generate Unique Identifiers (UUID) ---
+1. Generate a single UUID
+2. Generate multiple UUIDs
+3. Back to Main Menu
+Enter your choice: 1
+
+Generated UUID: f47ac10b-58cc-4372-a567-0e02b2c3d479
+UUID Version: 4
+UUID String:  f47ac10b-58cc-4372-a567-0e02b2c3d479
+
+Press Enter to continue...
+
+--- Generate Unique Identifiers (UUID) ---
+Enter your choice: 3
+
+=======================================================
+       Welcome to Multi-Utility Toolkit
+=======================================================
+Enter your choice: 5
+
+--- File Operations ---
+1. Create a new file
+2. Write to a file
+3. Read from a file
+4. Append to a file
+5. Delete a file
+6. Back to Main Menu
+Enter your choice: 1
+
+Enter file name: example.txt
+File 'example.txt' created successfully!
+
+Press Enter to continue...
+
+--- File Operations ---
+Enter your choice: 2
+
+Enter file name: example.txt
+Enter data to write: This is a sample file.
+Data written successfully!
+
+Press Enter to continue...
+
+--- File Operations ---
+Enter your choice: 3
+
+Enter file name: example.txt
+
+File Content:
+This is a sample file.
+
+Press Enter to continue...
+
+--- File Operations ---
+Enter your choice: 6
+
+=======================================================
+       Welcome to Multi-Utility Toolkit
+=======================================================
+Enter your choice: 6
+
+--- Explore Module Attributes (dir()) ---
+Available modules to explore:
+  Built-in: math, random, datetime, time, uuid, string, sys, os
+  Custom:   toolkit_package.file_operations, toolkit_package.math_utilities
+Enter module name to explore: math
+
+Available Attributes in math module:
+['__doc__', '__file__', '__loader__', '__name__', '__package__',
+'__spec__', 'acos', 'acosh', 'asin', 'asinh', 'atan', 'atan2',
+'atanh', 'ceil', 'comb', 'copysign', 'cos', 'cosh', 'degrees',
+'dist', 'e', 'erf', 'erfc', 'exp', 'expm1', 'fabs', 'factorial',
+'floor', 'fmod', 'frexp', 'fsum', 'gamma', 'gcd', 'hypot', 'inf',
+'isclose', 'isfinite', 'isinf', 'isnan', 'isqrt', 'lcm', 'ldexp',
+'lgamma', 'log', 'log10', 'log1p', 'log2', 'modf', 'nan', 'nextafter',
+'perm', 'pi', 'pow', 'prod', 'radians', 'remainder', 'sin', 'sinh',
+'sqrt', 'tan', 'tanh', 'tau', 'trunc', 'ulp']
+
+Total attributes: 63
+
+Press Enter to continue...
+
+=======================================================
+       Welcome to Multi-Utility Toolkit
+=======================================================
+Enter your choice: 7
+
+Thank you for using the Multi-Utility Toolkit! Goodbye!
